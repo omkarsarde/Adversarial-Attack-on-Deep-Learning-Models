@@ -1,5 +1,5 @@
 # Adversarial Attack on Deep Learning Models
- Demonstration of Importance against securing Computer Vision models against adversarial attacks.
+ Demonstration of Importance against securing Computer Vision models against adversarial attacks that are irrecongizable to humans !
  <br>
  Try predicting the class of the Adv_1 image through any State of the Art model while using the following transformation for the image:
  <br>
@@ -37,4 +37,7 @@
  
  
  # Approach
- The Approach is in two parts. First a white box attack is launched on a vgg16 model trained on imagenet to generate
+ The Approach is in two parts. First a white box attack is launched on a CNN (vgg16) model trained on imagenet to generate adversarial samples.
+ <br> Generated Advesarial samples are used to stage black box attacks on another CNN (resnet50) model.
+ <br> Through using adversarial transformations State of the Art (SoTA) models completely mis-classify the input.
+ <br> Even without adversarial transformations SoTA models classify the input with meagre probabilities
