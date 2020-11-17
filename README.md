@@ -21,7 +21,7 @@
  <br>
  Even without using the transformation the RAW ADVERSARIAL INPUT will have less probability of predictions compared to the orginal peppers image
  <br>
- ## IMAGE:
+ # IMAGES:
  [Screenshot](peppers.jpg "ORIGINAL IMAGE") [Screenshot](Adv_1.jpg "Adversarial")
  
  
