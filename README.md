@@ -3,7 +3,7 @@
  <br>
  Try predicting the class of the Adv_1 image through any State of the Art model while using the following transformation for the image:
  <br>
- ''' lang-python
+ ' lang-python
  def transform_input(image):
     """
     Transform image to model requirements
@@ -17,8 +17,8 @@
     img = resize(img)
     batch_transformed = torch.unsqueeze(img, 0)
     return batch_transformed
- '''
+ '
  <br>
  Without using
- # Approach
+ ## Approach
  The Approach is in two parts. First a white box attack is launched on a vgg16 model trained on imagenet to generate
