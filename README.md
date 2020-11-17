@@ -19,6 +19,11 @@
     return batch_transformed
  ```
  <br>
- Without using
- ## Approach
+ Even without using the transformation the RAW ADVERSARIAL INPUT will have less probability of predictions compared to the orginal peppers image
+ <br>
+ ## IMAGE:
+ ![alt-text-1](peppers.jpg "ORIGINAL IMAGE") ![alt-text-2](Adv_1.jpg "Adversarial")
+ 
+ 
+ # Approach
  The Approach is in two parts. First a white box attack is launched on a vgg16 model trained on imagenet to generate
