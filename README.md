@@ -3,7 +3,7 @@
  <br>
  Try predicting the class of the Adv_1 image through any State of the Art model while using the following transformation for the image:
  <br>
- ' lang-python
+ ```python
  def transform_input(image):
     """
     Transform image to model requirements
@@ -17,7 +17,7 @@
     img = resize(img)
     batch_transformed = torch.unsqueeze(img, 0)
     return batch_transformed
- '
+ ```
  <br>
  Without using
  ## Approach
