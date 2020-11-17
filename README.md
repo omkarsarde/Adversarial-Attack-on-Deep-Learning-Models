@@ -23,8 +23,8 @@
  <br>
  # IMAGES:
  <p float="left>
-  <img src="/peppers.jpg" width="50%" title = "ORIGINAL IMAGE" />
-  <img src="/Adv_1.jpg" width="50%" title = "ADVERSARIAL IMAGE" /> 
+  <img src="/peppers.jpg" width="50%", title = "ORIGINAL IMAGE" />
+  <img src="/Adv_1.jpg" width="50%", title = "ADVERSARIAL IMAGE" /> 
 </p>
  
  
