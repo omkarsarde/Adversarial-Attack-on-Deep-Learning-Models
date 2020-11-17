@@ -3,7 +3,7 @@
  <br>
  Try predicting the class of the Adv_1 image through any State of the Art model while using the following transformation for the image:
  <br>
- '''
+ ''' lang-python
  def transform_input(image):
     """
     Transform image to model requirements
