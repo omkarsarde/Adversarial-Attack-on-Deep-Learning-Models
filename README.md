@@ -26,12 +26,12 @@
  # IMAGES:
  <table>
   <tr>
-    <td>First Screen Page</td>
-     <td>Holiday Mention</td>
+    <td>ORIGINAL IMAGE</td>
+     <td>ADVERSARIAL IMAGE</td>
   </tr>
   <tr>
-    <td valign="top"><img src="/peppers.jpg"></td>
-    <td valign="top"><img src="/Adv_1.jpg"></td>
+    <td valign="top"><img src="/peppers.jpg",width="50%"></td>
+    <td valign="top"><img src="/Adv_1.jpg",width="50%"></td>
   </tr>
  </table>
  
