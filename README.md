@@ -22,9 +22,9 @@
  Even without using the transformation the RAW ADVERSARIAL INPUT will have less probability of predictions compared to the orginal peppers image
  <br>
  # IMAGES:
- <p align="middle">
-  <img src="/peppers.jpg" width="50%" />
-  <img src="/Adv_1.jpg" width="50%" /> 
+ <p float="left>
+  <img src="/peppers.jpg" width="50%" title = "ORIGINAL IMAGE" />
+  <img src="/Adv_1.jpg" width="50%" title = "ADVERSARIAL IMAGE" /> 
 </p>
  
  
